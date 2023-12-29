@@ -3,7 +3,6 @@
  * Set custom rewrite rules for .htaccess (security patch).
  */
 
- // Testing 1
 if ( ! is_multisite() ) {
 	add_action('generate_rewrite_rules', function() {
 		global $wp_rewrite;
