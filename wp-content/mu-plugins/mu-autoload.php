@@ -3,8 +3,8 @@
 if ( ( defined( 'WP_INSTALLING' ) && WP_INSTALLING ) || ! $h = opendir( WPMU_PLUGIN_DIR ) ) {
 	return;
 }
-
-
+// Testing
+// Remove this content
 $mu_plugins_map = [
 	'advanced-custom-fields'     => 'acf.php',
 	'advanced-custom-fields-pro' => 'acf.php',
